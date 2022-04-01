@@ -14,7 +14,7 @@ app.listen(port,async()=> {
 });
 
 app.get('/',(req,res)=>{
-    res.send('This is sample EC2 example');
+    res.send({status:200, message:'Its sample get message'});
   })
 
   app.post('/user',(req,res)=>{      
